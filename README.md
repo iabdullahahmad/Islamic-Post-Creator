@@ -8,8 +8,8 @@
 
 [![Claude Skill](https://img.shields.io/badge/Claude-Skill-6B1F2E?style=for-the-badge&logo=anthropic&logoColor=white)](https://claude.ai)
 [![Playwright](https://img.shields.io/badge/Rendering-Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)](https://playwright.dev)
-[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](#license)
-[![Made for](https://img.shields.io/badge/Made%20for-@ibnesaed-c9a86a?style=for-the-badge)](#)
+[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](#LICENSE)
+[![Made for](https://img.shields.io/badge/Made%20for-@ibnesaed-c9a86a?style=for-the-badge)](https://instagram.com/ibnesaed)
 [![Made by](https://img.shields.io/badge/Made%20by-@iabdullahahmad-c9a86a?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/iabdullahahmad)
 
 </div>
