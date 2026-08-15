@@ -180,6 +180,7 @@ Options:
 - *"Turn Surah Al-Baqarah 2:286 into an Instagram carousel"*
 - *"5 duas for anxiety, Urdu carousel"*
 - *"Continue the hadith series, part 3"*
+- *"Continue the hadith series, part 4"*
 
 ---
 
