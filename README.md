@@ -61,7 +61,7 @@
 | Output | Heavy 2x PNGs | **Light 1080x1350 JPGs (about 250 KB each), a PDF and a contact sheet** that opens on any device |
 | QA | View every slide separately | **Single `sheet.jpg`** shows the whole carousel at once |
 | Editing | Redo the slide | **`--only 4,7`** rebuilds only the slides you changed; the spec is saved with the output |
-| Brand | Chosen each time | **IbneSaed palette baked in**, with a documented way to swap in your own |
+| Brand | Chosen each time | **Ibnesaed palette baked in**, with a documented way to swap in your own |
 | Digits | Manual | Western digits become **Urdu numerals** automatically |
 | Safety checks | None | Build validates layout names, missing images, missing fonts and over-long slides |
 | Credits | Many render and fix loops | Designed to finish in **one run** with a single QA look |
@@ -481,19 +481,6 @@ pip install pillow playwright && playwright install chromium
 | Files will not open on a device | Use `carousel.pdf`; JPGs are light, avoid 2x PNGs |
 | Skill shows no fonts in a new chat | The zip was not uploaded, or an old chat is open. Re-upload and start a new chat |
 | Build stops with "unknown layout" or "bg not found" | Check the layout name against the table and that photo paths exist |
-
----
-
-## Fonts and licensing: read before publishing
-
-The fonts in `fonts/` have **different licences**. Some (for example Jameel Noori, Elgharib / KFGQPC, Ummi) are free for use; others (for example DecoType Thuluth, Cocon Next Arabic, Zain, Madani Arabic **demo**) are commercial or restricted, and a demo font may not be used in published work.
-
-**Before making a public GitHub repository:**
-- Check each font's licence for redistribution and for commercial or social-media use.
-- If in doubt, **do not commit the font files**: add `fonts/*.ttf` and `fonts/*.otf` to `.gitignore`, keep `fonts/FONTS.md`, and let each user place their own licensed fonts in `fonts/`. The skill works with whatever is present; missing codes simply fall back to `JN` and the build prints a warning.
-- Keep a private copy of the full bundle for your own use.
-
-The code, layouts and documentation in this repository are yours to license as you choose (MIT is suggested).
 
 ---
 
